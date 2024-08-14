@@ -1,0 +1,9 @@
+CREATE TABLE messages(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT, 
+    description TEXT
+);
+
+CREATE TABLE users(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT, 
+    chat_id BIGINT UNIQUE
+);
